@@ -21,11 +21,21 @@ p {
 
 .garden {
     background-image: url(https://gardens.theownerbuildernetwork.co/files/2020/05/FOREST-GARDEN-1-Copy.jpg);
-    background-size: 500px 500px;
-    color: bisque;
+    background-size: cover;
+    height: 444px;
+    width: 100%;
     margin-top: 0 auto;
+    border: 20px solid white;
+    border-radius: ;
+    background-position: bottom center;
 }
 
+#life {
+    color: beige;
+    font-size: 44px;
+    text-align: left;
+    
+}
 #garden-caption {
     color: darkolivegreen;
 }
