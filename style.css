@@ -1,5 +1,4 @@
 h1{
-    color: black;
     text-align: center;
     font-size: 50px;
     margin: 0 auto;
@@ -26,8 +25,23 @@ p {
     width: 100%;
     margin-top: 0 auto;
     border: 20px solid white;
-    border-radius: ;
     background-position: bottom center;
+    text-align: bottom left;
+}
+
+/*trying to control solely text. allowing a border around text, not the background. why no work?*/
+.header{
+    color: bisque;
+    text-align: center;
+    border: 1px solid white: 
+}
+/*related to above code. why no work?*/
+#banner {
+    background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1);
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    width: 100%;
 }
 
 #life {
@@ -40,11 +54,6 @@ p {
     color: darkolivegreen;
 }
 
-#Header {
-    background-color: bisque;
-    border: 1px solid white;
-    border-radius: 15px;
-}
 
 #scene {
     width: 500px;
@@ -53,5 +62,4 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
