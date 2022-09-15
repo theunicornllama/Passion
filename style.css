@@ -2,6 +2,7 @@ h1{
     text-align: center;
     font-size: 50px;
     margin: 0 auto;
+    color: bisque;
 }
 
 h2{
@@ -30,16 +31,17 @@ p {
 }
 
 /*trying to control solely text. allowing a border around text, not the background. why no work?*/
-.header{
+#banner .header h1{
     color: bisque;
-    text-align: center;
-    border: 1px solid white: 
+    border: 1px solid white:     
 }
+
 /*related to above code. why no work?*/
 #banner {
     background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1);
     background-size: cover;
     background-position: center;
+    border: 1px solid white;
     height: 240px;
     width: 100%;
 }
